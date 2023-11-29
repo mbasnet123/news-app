@@ -16,8 +16,8 @@ class _UserProfileState extends State<UserProfile> {
       ),
       body: Container(
         margin: const EdgeInsets.all(16),
-        child: Column(
-          children: const [
+        child: const Column(
+          children: [
             ListTile(
               leading: CircleAvatar(
                   radius: 30,
